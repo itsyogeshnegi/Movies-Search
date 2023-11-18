@@ -1,0 +1,43 @@
+.main-box{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.name{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.name>h2{
+    color: white;
+}
+.search{
+    height: 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.search>input{
+    width: 300px;
+    height: 30px;
+}
+.addCart{
+    height: 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media only screen and (max-width: 700px){
+.addCart{
+    display: none;
+}
+.search>input{
+    width: 130px;
+    height: 25px;
+}
+}
